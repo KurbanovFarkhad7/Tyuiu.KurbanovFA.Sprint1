@@ -24,7 +24,7 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task3.V19
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int x1, x2, y1, y2;
+            double x1, x2, y1, y2;
 
             Console.WriteLine("Введите x1:");
             x1 = Convert.ToInt32(Console.ReadLine());

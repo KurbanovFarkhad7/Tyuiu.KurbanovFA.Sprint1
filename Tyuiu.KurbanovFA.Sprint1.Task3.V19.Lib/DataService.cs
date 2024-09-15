@@ -8,9 +8,9 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task3.V19.Lib
         {
             if (x2 % x1 == 0 && y2 % y1 == 0)
             {
-                return true;
+                return false;
             }
-            else { return false; }
+            else { return true; }
         }
     }
 }
