@@ -1,6 +1,6 @@
-﻿using Tyuiu.KurbanovFA.Sprint1.Task1.V24.Lib;
+﻿using Tyuiu.KurbanovFA.Sprint1.Task1.V28.Lib;
 
-namespace Tyuiu.KurbanovFA.Sprint1.Task1.V24
+namespace Tyuiu.KurbanovFA.Sprint1.Task1.V28
 {
     internal class Program
     {
