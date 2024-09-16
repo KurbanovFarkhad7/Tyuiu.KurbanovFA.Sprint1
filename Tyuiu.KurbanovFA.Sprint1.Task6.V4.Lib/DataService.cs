@@ -6,9 +6,21 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task6.V4.Lib
     {
         public string CheckDoubleN(string value)
         {
-            if (value.Contains("нн"))
+            string s, s1;
+            s1 = "";
+            for (int i = 0; i < value.Length; i++)
             {
-                value = "";
+                if (value[i] != ' ')
+                {
+                    s1 += value[i];
+                }
+                else
+                {
+                    if (s1.Contains("нн"))
+                    {
+                        s1 = "";
+                    }
+                }
             }
             return value;
         }
