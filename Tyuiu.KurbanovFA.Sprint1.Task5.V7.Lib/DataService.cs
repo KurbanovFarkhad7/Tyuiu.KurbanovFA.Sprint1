@@ -6,7 +6,7 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task5.V7.Lib
     {
         public int AngleToHoursMinutes(double f)
         {
-            return Convert.ToInt32(f * 6 / 60);
+            return Convert.ToInt32(f / 60);
         }
     }
 }
