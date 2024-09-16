@@ -1,6 +1,6 @@
-﻿using Tyuiu.KurbanovFA.Sprint1.Task3.V19.Lib;
+﻿using Tyuiu.KurbanovFA.Sprint1.Task4.V10.Lib;
 
-namespace Tyuiu.KurbanovFA.Sprint1.Task3.V19
+namespace Tyuiu.KurbanovFA.Sprint1.Task4.V10
 {
     internal class Program
     {
@@ -12,34 +12,28 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task3.V19
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #19                                                             *");
+            Console.WriteLine("* Тема: Class Math                                                        *");
+            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Вариант #10                                                             *");
             Console.WriteLine("* Выполнил: Курбанов Фархаджон Азамжанович | РППб-24-1                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
+            Console.WriteLine("* вычисляет результат по формуле и печатает его на экране.                *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double x1, x2, y1, y2;
+            double a;
 
-            Console.WriteLine("Введите x1:");
-            x1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите y1:");
-            y1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите x2:");
-            x2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите y2:");
-            y2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите a:");
+            a = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ ВОЗМОЖНОСТИ ХОДА:                                             *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.ElephCanMove(x1,x2,y1,y2));
+            Console.WriteLine(ds.Calculate(a));
 
             Console.ReadLine();
         }
