@@ -16,7 +16,7 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task6.V4.Lib
                 }
                 else
                 {
-                    if (s1.Contains("нн"))
+                    if (s1.Contains("н"))
                     {
                         s1 = "";
                     }
