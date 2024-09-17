@@ -6,22 +6,25 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task6.V4.Lib
     {
         public string CheckDoubleN(string value)
         {
-            string s, s1;
-            s1 = "";
+            string spaceValue = "";
+            string valueHolder = "";
+
             for (int i = 0; i < value.Length; i++)
             {
                 if (value[i] != ' ')
                 {
-                    s1 += value[i];
+                    spaceValue += value[i];
                 }
                 else
                 {
-                    if (s1.Contains("н"))
+                    if (spaceValue.Contains("нн"))
                     {
-                        s1 = "";
+                        valueHolder += spaceValue + " ";
                     }
+                    spaceValue = "";
                 }
             }
+            value = valueHolder;
             return value;
         }
     }

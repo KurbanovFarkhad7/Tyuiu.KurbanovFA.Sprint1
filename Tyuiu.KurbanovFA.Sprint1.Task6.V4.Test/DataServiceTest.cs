@@ -9,8 +9,8 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task6.V4.Test
         public void ValidExpression()
         {
             var ds = new DataService();
-            string value = "Информатика";
-            string wait = "Иннформатика";
+            string value = "желанный юный медленный";
+            string wait = "желанный ";
             var res = ds.CheckDoubleN(value);
             Assert.AreEqual(wait, res);
         }
