@@ -8,7 +8,7 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task6.V4.Lib
         {
             string spaceValue = "";
             string valueHolder = "";
-
+            value += " ";
             for (int i = 0; i < value.Length; i++)
             {
                 if (value[i] != ' ')

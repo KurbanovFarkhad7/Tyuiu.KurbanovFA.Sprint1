@@ -10,7 +10,7 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task6.V4.Test
         {
             var ds = new DataService();
             string value = "желанный юный медленный";
-            string wait = "желанный ";
+            string wait = "желанный медленный ";
             var res = ds.CheckDoubleN(value);
             Assert.AreEqual(wait, res);
         }
