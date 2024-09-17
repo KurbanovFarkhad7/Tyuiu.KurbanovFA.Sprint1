@@ -26,7 +26,7 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task6.V4.Lib
                 }
             }
             value = valueHolder;
-            value = value.TrimEnd('&');
+            value = value.TrimEnd(' ');
             return value;
         }
     }
