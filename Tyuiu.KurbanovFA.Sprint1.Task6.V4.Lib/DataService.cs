@@ -1,5 +1,4 @@
-﻿using System.Reflection.Metadata;
-using tyuiu.cources.programming.interfaces.Sprint1;
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.KurbanovFA.Sprint1.Task6.V4.Lib
 {
