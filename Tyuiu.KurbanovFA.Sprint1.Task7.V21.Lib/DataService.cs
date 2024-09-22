@@ -6,8 +6,10 @@ namespace Tyuiu.KurbanovFA.Sprint1.Task7.V21.Lib
     {
         public double Calculate(double x, double y)
         {
-            return Math.Round((Math.Pow(x, y)) / (Math.Cos(x) - (x / 3)) + (Math.Pow(Math.Sin(x), 2) + (Math.Cos(y)))
-                 / (Math.Cos(x) - Math.Sin(y)) * Math.Tan(x * y), 3);
+            double z = (Math.Pow(y, x)) / (Math.Cos(x) - x / 3) + 
+                (Math.Sin(Math.Pow(x, 2)) + Math.Cos(y)) / (Math.Cos(x) - Math.Sin(y)) 
+                * Math.Tan(x * y);
+            return Math.Round(z, 3);
         }
     }
 }
